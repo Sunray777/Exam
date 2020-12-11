@@ -79,9 +79,17 @@ ol
 
 }
 
+ul
+{
+	font-size: 23px;
+	line-height: 25px;
+	padding-bottom: 20px;
+}
+
 li
 {
 	padding-bottom: 25px;
+	font-size: 23px;
 }
 
 
@@ -135,4 +143,9 @@ h5
 	font-size: 25px;
 	font-style: italic;
 
+}
+
+.book_headers 
+{
+	color: red;
 }
