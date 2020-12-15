@@ -1,0 +1,42 @@
+.flexbox_item
+{
+    background-color: darkslategrey;
+    width: 500px;
+    margin: 0 auto;
+    
+align-items: center;
+    
+}
+
+.flexbox_item_m1
+{
+    background-color: rgb(170, 192, 120);
+    width: 400px;
+    height: 250px;
+    margin: 0 auto;
+align-items: center;
+
+    
+}
+
+.flexbox_item_m2
+{
+    background-color: rgb(170, 192, 120);
+    width: 60%;
+    min-width: 500px;
+    height: 250px;
+    margin: 0 auto;
+    
+}
+
+.logo{
+width:500px
+border: 1px solid #111111; 
+text-align: center; 
+
+}
+
+.logo_img 
+{
+
+}
