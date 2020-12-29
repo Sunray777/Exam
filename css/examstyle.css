@@ -176,9 +176,6 @@ h5
 .menu_list>li
 {margin: 0px 40px 0px 0px;}
 
-.menu_list>li:hover .sub-menu_list
-{display: block;}
-
 .menu_link
 {color: #ffffff;}
 
@@ -208,9 +205,18 @@ background-color: #435324;
 {}
 
 .arrow
-{width: 0;
+
+{
+position: absolute;
+right: 0;
+top: 12px;
+width: 0;
 height: 0;
 border-top: 10px solid #ffffff;
 border-right: 10px solid transparent;
 border-left: 10px solid transparent;
+}
+
+body.mouse .menu_list>li:hover .sub-menu_list {
+	display: block;
 }
